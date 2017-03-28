@@ -1,0 +1,26 @@
+body {
+	background-color: #e99c56;
+}
+
+#topHeader {
+	background-color: #151515;
+}
+
+h2 {
+	font-family: 'Muli', sans-serif;
+	font-size: 48px;
+	color: #909090;
+}
+
+#NBA {
+	color: blue;
+}
+
+p {
+	font-size: 19px;
+}
+
+label {
+	font-family: 'Muli', sans-serif;
+	font-size: 18px;
+}

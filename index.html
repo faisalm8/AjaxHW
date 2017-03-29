@@ -12,33 +12,44 @@
 <div class="container text-center">
 
 	<div class="jumbotron" id="topHeader">
-		<h2>Let's play NBA Giphy.</h2>
+		<h2><img src="https://www.seeklogo.net/wp-content/uploads/2014/09/NBA-logo-big.png" style="width:120px;height:180px">Let's play NBA Giphy.</h2>
 	</div>
 	<div class="page-header">
 		<p>Try it! Enter in your favorite NBA player in the box below and hit "Submit". You can also click on the gifs to animate them!</p>
 	</div>
 
-	<div id="nbaButtons">
+	<div class="col-md-3"></div>
+	<div class="col-md-6" id="sidebar">
 
-	</div>
+	
+		<form role="form">
+			
+			<div class="gif-form">
+				<label for="nba-input">Add a player</label>
+				<input type="text" class="form-control" id="gif-input">
+			</div>
 
-	<form id="nba-form">
+			<input class="btn btn-primary col-md-12" id="searchButton" type="submit" value="Submit"></form>
 
-		<label for="nba-input">Add a player</label>
-		<input type="text" id="nba-input">
+			<p></p>
 
-		<input class="btn btn-primary" id="addPlayer" type="submit" value="Submit">
-
-		<div id="players">
+			<div id="buttonsView">
 
 		</form>
+
+	</div>
+	<div class="col-md-3"></div>
+
+	<div class="col-md-12">
+
+		<div id="gifView"></div>
 
 	</div>
 
 </div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-<script src="javascript/main.js"></script>
+<script src="assets/javascript/main.js"></script>
 	
 
 	
